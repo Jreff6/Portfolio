@@ -1,0 +1,29 @@
+.menuWrapper {
+    flex: 0 0 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #160C28; /* Fond léger */
+  }
+  
+  .menuWrapper ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menuWrapper li {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .menuWrapper a {
+    text-decoration: none;
+    color: #000411; /* Lien texte sombre */
+    font-size: 28px; /* Taille de police plus grande */
+    transition: color 0.3s ease;
+  }
+  
+  .menuWrapper a:hover {
+    color: #EFCB68; /* Accentuation des liens sur hover */
+  }
+  

@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css'
+import './home.scss'
 import Navbar from '../../components/navbar/navbar'
 import Presentation from '../../components/presentation/Presentation'
 import Menu from '../../components/Menu/Menu'
@@ -7,17 +7,13 @@ import Menu from '../../components/Menu/Menu'
 function Home() {
     return (
       <React.Fragment>
-        <div className='top'>
+        <div className='home-container'>
           <Navbar />
-        </div>
-        <div className='mid'>
           <Presentation />
-        </div>
-        <div className='bottom'>
-            <Menu />
+          <Menu />
         </div>
       </React.Fragment>   
     );
-  }
-  
-  export default Home;
+}
+
+export default Home

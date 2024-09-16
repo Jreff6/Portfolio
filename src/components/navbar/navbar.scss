@@ -1,0 +1,36 @@
+.navbarWrapper {
+  flex: 0 0 8%;
+  background-color: #160C28; /* Couleur de fond sombre */
+  color: #E1EFE6; /* Texte clair */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligne les éléments du haut vers le bas */
+  align-items: center;
+  padding: 20px 0; /* Ajoute un peu de padding en haut et en bas */
+}
+
+.navbarWrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Liste empilée verticalement */
+  align-items: center;
+}
+
+.navbarWrapper li {
+  margin: 20px 0; /* Espace entre les éléments */
+}
+
+.navbarWrapper a {
+  text-decoration: none;
+  color: #E1EFE6;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  writing-mode: vertical-rl; /* Texte vertical */
+  text-orientation: mixed;
+}
+
+.navbarWrapper a:hover {
+  color: #EFCB68; /* Accentuation sur hover */
+}

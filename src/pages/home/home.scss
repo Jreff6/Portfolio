@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'YourFontFamily', sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Pas de défilement */
+  }
+  
