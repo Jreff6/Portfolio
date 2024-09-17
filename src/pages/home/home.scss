@@ -1,3 +1,5 @@
+@import '../../variables';
+
 body, html {
     margin: 0;
     padding: 0;
@@ -10,4 +12,3 @@ body, html {
     height: 100vh;
     overflow: hidden; /* Pas de défilement */
   }
-  @import './_variables';
