@@ -8,7 +8,7 @@ function Menu() {
       <ul>
         <li><Link to="/directory"> {'\uE27A'}es projets</Link></li>
         <li><Link to="/contact"> contacter</Link></li>
-        <li><Link to="/CV">on CV</Link></li>
+        <li><Link to="/CV" target='_blank' rel='noopener noreferrer'>on CV</Link></li>
       </ul>
     </div>
   );
