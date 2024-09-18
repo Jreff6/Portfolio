@@ -1,1 +1,15 @@
 @import '../../variables';
+
+.CVWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.pdf-viewer {
+  width: 80%;
+  height: auto; 
+  max-height: 98vh; 
+}

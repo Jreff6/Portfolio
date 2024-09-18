@@ -17,5 +17,12 @@ $color-dark: #000411;
     font-style: normal;
   }
   
+  @font-face {
+    font-family: 'Milky';
+    src: url('../src/assets/fonts/MilkyVintage.ttf') format('opentype');
+    font-weight: 400;
+    font-style: regular;
+  }
   // Variable pour utiliser la police dans tout le projet
-  $font-primary: 'MEQANOR', sans-serif;
+  $font-primary: 'Milky', sans-serif;
+
