@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/navbar/navbar'; // Assurez-vous d'importer correctement la navbar
-import ContactForm from '../../components/Contact/ContactForm'; // Assurez-vous d'importer le composant ContactForm
+import ContactUs from '../../components/Contact/ContactForm'; // Assurez-vous d'importer le composant ContactForm
 import './contact.scss'; // Assurez-vous d'avoir le fichier de style associé
 
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
       <Navbar />
         {/* Deuxième section : Formulaire de contact */}
         <div className="contact-form">
-          <ContactForm />
+          <ContactUs />
         </div>
       </div>
   );

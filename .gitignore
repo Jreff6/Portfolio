@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 CV.pdf
+.env
 # testing
 /coverage
 
