@@ -5,10 +5,9 @@ import './contact.scss'; // Assurez-vous d'avoir le fichier de style associé
 
 function Contact() {
   return (
-    <div className="contact-page">
+    <div className="contactWrap">
       <Navbar />
-        {/* Deuxième section : Formulaire de contact */}
-        <div className="contact-form">
+        <div className="contactForm">
           <ContactUs />
         </div>
       </div>

@@ -1,1 +1,30 @@
 @import '../../variables';
+
+.contactWrap {
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
+  background-color: $color-background;
+}
+
+.navbarWrapper {
+  width: 10%; 
+  background-color: $color-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  width: 90%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+.contact-form {
+  width: 100%;
+  max-width: 600px; 
+}
