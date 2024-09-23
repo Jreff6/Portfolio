@@ -26,7 +26,7 @@
 .navbarWrapper a {
   text-decoration: none;
   color:  $color-text;
-  font-size: 18px;
+  font-size: calc(10px + (18 - 10) * ((100vw - 375px) / (1440 - 375)));
   transition: color 0.3s ease;
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -34,4 +34,5 @@
 
 .navbarWrapper a:hover {
   color: $color-hover;
+  text-decoration: line-through;
 }
