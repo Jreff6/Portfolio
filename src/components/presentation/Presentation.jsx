@@ -5,9 +5,7 @@ function Presentation() {
     return (
         <div className='PresentationWrapper'>
                 <p>
-                    LOREM IPSUM
-
-                    Currently looking for an intership as a FrontEnd Dev in Lyon
+                    Après avoir suivi pendant l'année 2024 une formation de Développeur Web avec OpenClassroom, je suis à la recherche d'une alternance en tant que Développeur Front End pour mettre en pratique et approfondire mes connaissances.
                 </p>
         </div>
         

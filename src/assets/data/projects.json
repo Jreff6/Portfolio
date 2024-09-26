@@ -5,7 +5,13 @@
       "description": "J'ai du réaliser le frontend du portfolio d'une architecte, dont une page qui présente ses différents projets, une page de connexion et une modale d'édition de projets.",
       "image": "https://i.imgur.com/MzQvRp4.png",
       "lien": "https://github.com/Jreff6/OpenClassroomProjet3",
-      "text":"Pour ce projet, j'ai réalisé le FrontEnd de ce portfolio. J'avais à ma disposition une maquette sur figma ainsi qu'une partie de la page d'accueil en HTML pour m'inspirer. A partir de cela j'ai du construire le site en allant récupérer la liste des projets de manière dynamique plutôt que de les avoir en statique. Egalement, j'ai mis en place les différentes modales permettant de créer modifier et supprimer des projets de ce portfolio lorsque l'on est connecté en tant qu'administrateur. Enfin j'ai mis en place une page de connexion "
+      "text":"Pour ce projet, j'ai réalisé le FrontEnd de ce portfolio. J'avais à ma disposition une maquette sur figma ainsi qu'une partie de la page d'accueil en HTML pour m'inspirer. A partir de cela j'ai du construire le site en allant récupérer la liste des projets de manière dynamique plutôt que de les avoir en statique. Pour cela j'avais une documentation sur les différentes API déployées. Egalement, j'ai mis en place les différentes modales permettant de créer modifier et supprimer des projets de ce portfolio lorsque l'on est connecté en tant qu'administrateur. Enfin j'ai mis en place une page de connexion ",
+      "technologies": [
+    { "name": "javascript", "hasPlain": true },
+    { "name": "postman", "hasPlain": true },
+    { "name": "css3", "hasPlain": true },
+    { "name": "html5", "hasPlain": true }
+  ]
     },
     {
       "id": 2,
@@ -13,15 +19,28 @@
       "description": "J'ai optimisé le portfolio d'une photographe pour le rendre plus performant principalement au niveau du temps de chargement, son référencement et  son accessibilité",
       "image": "https://i.imgur.com/PJejwF3.png",
       "lien": "https://jreff6.github.io/OCProjet4/",
-      "text":  "Pour ce projet, j'ai du analyser et optimiser le site portfolio d'une photographe. Il a fallu entre autre trouver un format d'images plus adapté, une méthode de chargement plus efficace. Egalement retravailler le côté SEO de ce site pour améliorer son classement dans les résultats de recherche."
+      "text":  "Pour ce projet, j'ai du analyser et optimiser le site portfolio d'une photographe. Il a fallu entre autre trouver un format d'images plus adapté, une méthode de chargement plus efficace. Egalement retravailler le côté SEO de ce site pour améliorer son classement dans les résultats de recherche.",
+      "technologies": [
+        { "name": "javascript", "hasPlain": true },
+        { "name": "postman", "hasPlain": true },
+        { "name": "css3", "hasPlain": true },
+        { "name": "html5", "hasPlain": true }
+    ]
     },
     {
-        "id": 3,
-        "title": "Mon Vieux Grimoire",
-        "description": "Mise en place du backend pour un site de notation de livres ",
-        "image": "https://i.imgur.com/AtKBfFY.png",
-        "lien": "https://github.com/Jreff6/OCP6",
-        "text": "Pour ce projet, j'ai du mettre en place le backend pour une pplication de notation de livres. J'avais à ma disposition le code du front end ainsi que des spécifications technique. A partir de ces informtions j'ai utilisé node.js et express pour mettre en place un backend efficace qui répond aux besoins des users."
+      "id": 3,
+      "title": "Mon Vieux Grimoire",
+      "description": "Mise en place du backend pour un site de notation de livres ",
+      "image": "https://i.imgur.com/AtKBfFY.png",
+      "lien": "https://github.com/Jreff6/OCP6",
+      "text": "Pour ce projet, j'ai du mettre en place le backend pour une pplication de notation de livres. J'avais à ma disposition le code du front end ainsi que des spécifications technique. A partir de ces informtions j'ai utilisé node.js et express pour mettre en place un backend efficace qui répond aux besoins des users.",
+      "technologies": [
+        { "name": "nodejs", "hasPlain": true },
+        { "name": "nodemon", "hasPlain": true },
+        { "name": "express", "hasPlain": false },
+        { "name": "mongodb", "hasPlain": true},
+        { "name": "mongoose", "hasPlain": false}
+      ]
     }
   ]
   
