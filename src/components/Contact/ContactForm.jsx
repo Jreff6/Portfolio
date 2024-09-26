@@ -24,7 +24,7 @@ const ContactUs = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail} className="contact-form">
-            <label htmlFor="user_name" className="contact-form__label">Name</label>
+            <label htmlFor="user_name" className="contact-form__label">Nom</label>
             <input
                 type="text"
                 name="user_name"
@@ -47,7 +47,7 @@ const ContactUs = () => {
                 className="contact-form__textarea"
             />
 
-            <input type="submit" value="Send" className="contact-form__submit" />
+            <input type="submit" value="Envoyer" className="contact-form__submit" />
         </form>
     );
 }

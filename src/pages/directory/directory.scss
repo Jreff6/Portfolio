@@ -51,12 +51,12 @@
     text-decoration: none;
     
     h3 {
-      font-size: 1.5rem;
+      font-size: calc(12px + (34 - 12) * ((100vw - 375px) / (1440 - 375)));
       margin: 0;
     }
 
     p {
-      font-size: 1rem;
+      font-size: calc(10px + (16 - 10) * ((100vw - 375px) / (1440 - 375)));
       margin: 0; 
       text-decoration: none;
     }
