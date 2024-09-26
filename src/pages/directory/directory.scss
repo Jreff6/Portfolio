@@ -3,6 +3,7 @@
 .directoryWrapper {
   display: flex;
   height: 100vh;
+  background-color: $color-background;
 }
 
 .project-list {
@@ -17,17 +18,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $color-dark; 
+  background-color: none; /* ex : $color-dark*/ 
   border-radius: 10px;
+  border-color: $color-text;
   overflow: hidden;
   transition: background-color 0.3s ease, filter 0.3s ease; /* Ajout de filter ici */
   cursor: pointer;
   height: 200px; /* Ajustement de la hauteur pour les cartes */
   filter: grayscale(100%); /* Filtre appliqué à toute la carte */
+  text-decoration: none;
 
   &:hover {
     background-color: $color-hover; 
-    filter: grayscale(0%); /* Effet de couleur sur hover pour toute la carte */
+    filter: grayscale(0%); 
+
   }
 
   .project-image {
@@ -44,17 +48,17 @@
     padding: 1rem;
     text-align: center;
     color: $color-text;
+    text-decoration: none;
     
     h3 {
       font-size: 1.5rem;
-      margin: 0; /* Suppression de la marge */
-      text-decoration: none; /* Suppression de l'effet souligné */
+      margin: 0;
     }
 
     p {
       font-size: 1rem;
-      margin: 0; /* Suppression de la marge */
-      text-decoration: none; /* Suppression de l'effet souligné */
+      margin: 0; 
+      text-decoration: none;
     }
 
   }
