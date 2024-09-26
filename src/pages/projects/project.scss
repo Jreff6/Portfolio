@@ -1,0 +1,42 @@
+@import '../../variables';
+
+.projectWrapper {
+  display: flex;
+  height: 100vh;
+  background-color: $color-background; // Utiliser la couleur de fond définie
+}
+
+.projectContent {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $color-text;
+
+  .project-image {
+    width: 100%; /* S'assure que l'image prend toute la largeur disponible */
+    height: 300px; /* Ajuster la hauteur comme souhaité */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem; // Taille de la police pour le titre
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1440 - 375)));
+  }
+
+  a {
+    color: $color-hover; // Couleur du lien
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline; // Effet de soulignement au survol
+    }
+  }
+}

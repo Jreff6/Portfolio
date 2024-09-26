@@ -1,26 +1,27 @@
 import React from 'react';
+import Navbar from '../../components/navbar/navbar';
+import projectData from '../../assets/data/projects.json';
 import { useParams } from 'react-router-dom';
-import projectData from '../../assets/data/projects.json'; 
-import Navbar from '../../components/navbar/navbar'; 
 import './project.scss'; 
 
 const Project = () => {
-  const { id } = useParams(); // Récupère l'ID du projet depuis l'URL
-  const project = projectData.find((p) => p.id === parseInt(id)); // Trouve le projet correspondant
-
-  if (!project) {
-    return <div>Projet non trouvé</div>; // Gérer le cas où le projet n'existe pas
-  }
+  const { id } = useParams();
+  const project = projectData.find((proj) => proj.id === parseInt(id));
 
   return (
     <div className="projectWrapper">
       <Navbar />
-      <div className="projectDetails">
-        <div className="projectImage" style={{ backgroundImage: `url("${project.image}")` }}></div>
-        <h2>{project.title}</h2>
-        <p>{project.description}</p>
-        {project.text && <p>{project.text}</p>} {/* Affiche le texte si disponible */}
-        <a href={project.lien} target="_blank" rel="noopener noreferrer" className="projectLink">Voir le projet sur GitHub</a>
+      <div className="projectContent">
+        {project ? (
+          <>
+            <h1>{project.title}</h1>
+            <div className="project-image" style={{ backgroundImage: `url("${project.image}")` }}></div>
+            <p>{project.text}</p>
+            <a href={project.lien} target="_blank" rel="noopener noreferrer">Voir le code</a>
+          </>
+        ) : (
+          <p>Projet introuvable.</p>
+        )}
       </div>
     </div>
   );

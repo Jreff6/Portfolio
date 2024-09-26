@@ -12,7 +12,8 @@
       "title": "Portfolio Photographe",
       "description": "J'ai optimisé le portfolio d'une photographe pour le rendre plus performant principalement au niveau du temps de chargement, son référencement et  son accessibilité",
       "image": "https://i.imgur.com/PJejwF3.png",
-      "lien": "https://jreff6.github.io/OCProjet4/"
+      "lien": "https://jreff6.github.io/OCProjet4/",
+      "text":  "Pour ce projet, j'ai du analyser et optimiser le site portfolio d'une photographe. Il a fallu entre autre trouver un format d'images plus adapté, une méthode de chargement plus efficace. Egalement retravailler le côté SEO de ce site pour améliorer son classement dans les résultats de recherche."
     },
     {
         "id": 3,
