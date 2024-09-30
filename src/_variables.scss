@@ -1,13 +1,10 @@
 // _variables.scss
 
-$color-background:#160C28;
-$color-hover: #AEB7B3;
-$color-text: #EFCB68;
+$color-background:#B1B5C8;
+$color-hover: #FEFFBE;
+$color-text: #503F47;
 $color-dark: #000411;
 
-// Honeydew #E1EFE6
-// Yellow #EFCB68
-// Dark Purple #160C28  
 
 
   
@@ -22,7 +19,7 @@ $color-dark: #000411;
     font-family: 'NewYork';
     src: url('../src/assets/fonts/NewYork.otf') format('opentype');
     font-weight: 400;
-    font-style: normal;
+    font-style: sans-serif;
   }
   // Variable pour utiliser la police dans tout le projet
   $font-primary: 'NewYork', sans-serif;
