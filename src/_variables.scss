@@ -10,19 +10,23 @@ $color-dark: #000411;
 // Dark Purple #160C28  
 
 
-@font-face {
-    font-family: 'MEQANOR';
-    src: url('../src/assets/fonts/MEQANOR.otf') format('opentype');
+  
+  @font-face {
+    font-family: 'CaviarDreams';
+    src: url('../src/assets/fonts/CaviarDreams.ttf') format('opentype');
+    font-weight: 400;
+    font-style: sans-serif;
+  }
+
+  @font-face {
+    font-family: 'NewYork';
+    src: url('../src/assets/fonts/NewYork.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
   }
-  
-  @font-face {
-    font-family: 'Milky';
-    src: url('../src/assets/fonts/MilkyVintage.ttf') format('opentype');
-    font-weight: 400;
-    font-style: regular;
-  }
   // Variable pour utiliser la police dans tout le projet
-  $font-primary: 'Milky', sans-serif;
+  $font-primary: 'NewYork', sans-serif;
+  $font-secondary: 'CaviarDreams', sans-serif;
+
+
 

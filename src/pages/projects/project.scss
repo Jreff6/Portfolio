@@ -28,7 +28,8 @@
     margin-bottom: 1rem;
   }
   p {
-    font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (1440 - 375)));
+    font-family: $font-secondary;
+    font-size: calc(10px + (16 - 10) * ((100vw - 375px) / (1440 - 375)));
   }
 
   a {
@@ -36,7 +37,21 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline; // Effet de soulignement au survol
+      text-decoration: underline;
     }
+    
   }
 }
+
+.techTitle{
+  align-self: baseline;
+  font-family: $font-secondary;
+}
+
+.tech-icons{
+  align-self: baseline;
+  font-size: calc(10px + (45 - 10) * ((100vw - 375px) / (1440 - 375)));
+  display: flex;
+  gap: 8px;
+}
+  

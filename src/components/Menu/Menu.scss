@@ -20,7 +20,7 @@
   .menuWrapper a {
     text-decoration: none;
     color: $color-text; 
-    font-size: calc(12px + (160 - 12) * ((100vw - 375px) / (1440 - 375)));
+    font-size: calc(12px + (135 - 12) * ((100vw - 375px) / (1440 - 375)));
     transition: color 0.3s ease;
   }
   
