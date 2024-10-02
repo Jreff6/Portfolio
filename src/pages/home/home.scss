@@ -12,3 +12,17 @@ body, html {
     height: 100vh;
     overflow: hidden; /* Pas de défilement */
   }
+
+  @media (max-width: 640px) {
+    .home-container {
+        flex-direction: column; /* Les éléments sont empilés verticalement */
+    }
+
+    .presentation {
+        order: 1; /* La présentation apparaît avant le menu */
+    }
+
+    .menu {
+        order: 2; /* Le menu apparaît après la présentation */
+    }
+}

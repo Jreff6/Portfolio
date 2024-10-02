@@ -28,3 +28,13 @@
     color: $color-hover;
   }
   
+  @media (max-width: 640px) {
+    .menuWrapper a {
+      font-size: 50px;
+    }
+
+    .menuWrapper{
+      align-items: normal;
+    }
+    
+  }

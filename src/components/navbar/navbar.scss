@@ -36,3 +36,11 @@
   color: $color-hover;
   text-decoration: line-through;
 }
+
+@media (max-width: 640px) {
+  .navbarWrapper {
+    flex-direction: row;
+    padding: 20px 0 20px 15px;
+  }
+  
+}
